@@ -7,7 +7,22 @@
   height: 220px;
   width: 150px;
   margin: 15px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: #e7ffff;
 }
 .title {
   text-transform: capitalize;
+}
+
+.img-box {
+  max-height: 90px;
+  max-width: 90px;
+}
+img {
+  height: 100%;
+  width: 100%;
 }
