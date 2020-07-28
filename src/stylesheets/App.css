@@ -1,0 +1,13 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid black;
+  height: 220px;
+  width: 150px;
+  margin: 15px;
+}
+.title {
+  text-transform: capitalize;
+}
